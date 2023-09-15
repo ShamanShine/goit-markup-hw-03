@@ -304,21 +304,11 @@ a {
 .portfolio {
 
     padding-top: 120px;
-
-    color: #2E2F42;
-    text-align: center;
-    font-family: Roboto,
-        sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
     background: #FFF;
 }
 
 .portfolio-inner {
-    width: 1440px;
+    display: flex;
 
 }
 
@@ -326,6 +316,15 @@ a {
 
     margin-bottom: 72px;
     background: #FFF;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+
+    font-weight: 700;
+    line-height: 1.1em;
+
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -379,7 +378,7 @@ a {
 
 
 
-    width: 1440px;
+    width: 1158px;
     height: 312px;
 
     background: var(--c-background);
