@@ -35,9 +35,9 @@ img {
 
 .container {
 
-    max-width: 1440px;
+    max-width: 1158px;
     margin: 0 auto;
-    padding: 0 32px;
+    padding: 0 15px;
 }
 
 .page-nav {}
@@ -50,6 +50,8 @@ button {
     font-family: inherit;
 }
 
+
+
 /* Header,logo,Navigation */
 
 .header-inner {
@@ -57,13 +59,18 @@ button {
     align-items: center;
     justify-content: center;
     gap: 40px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-nav {
     display: flex;
-    gap: 24px;
+    gap: 40px;
     align-items: center;
     flex-grow: 1;
+}
+
+.hearder-test {
+    display: flex;
 }
 
 .contact-socials {
@@ -79,8 +86,8 @@ button {
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+
+    margin-right: 76px align-items: center;
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -143,6 +150,18 @@ span.logo {
     font-size: 14px;
 }
 
+.address-test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tel-test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 a {
     text-decoration: none;
 }
@@ -150,7 +169,11 @@ a {
 /*First section*/
 
 .main-inner {
-    padding: 188px 472px 292px 472px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin-right: auto;
+    margin-left: auto;
+
     background: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -158,10 +181,13 @@ a {
 
 
 .main-section {
-    display: flex;
-    align-items: center;
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 32px;
+    margin-right: auto;
+    margin-left: auto;
     max-width: 496px;
-    justify-content: center;
+
     color: #FFF;
     font-family: Roboto, sans-serif;
     font-size: 56px;
@@ -184,7 +210,7 @@ a {
     margin: 0 auto;
     padding: 16px 32px;
     align-items: flex-start;
-    gap: 10px;
+
     color: #FFF;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -387,6 +413,7 @@ a {
     height: 312px;
     flex-shrink: 0;
     background: var(--c-background);
+    padding: 100px 0 100px;
 }
 
 .footer-link {
