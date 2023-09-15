@@ -56,13 +56,14 @@ button {
 
 .header-inner {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e7e9fc
 }
 
 .header-nav {
     display: flex;
-    margin-left: 156px;
+
 
     align-items: center;
 
@@ -119,7 +120,7 @@ span.logo {
 }
 
 .address-link {
-    display: flex;
+
     align-items: center;
 
     color: #434455;
@@ -155,7 +156,7 @@ a {
 /*First section*/
 
 .main-inner {
-    padding-top: 188px;
+
     padding-bottom: 188px;
     margin-right: auto;
     margin-left: auto;
