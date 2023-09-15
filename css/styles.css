@@ -8,8 +8,6 @@
 
 }
 
-
-
 h1,
 h2,
 h3,
@@ -63,25 +61,18 @@ button {
 
 .header-nav {
     display: flex;
-
-
     align-items: center;
-
-
 }
 
 .nav-list {
     display: flex;
     gap: 40px;
     margin-left: 76px;
-
-
 }
 
 .contact-list {
     display: flex;
     gap: 40px;
-
 }
 
 .logo {
@@ -98,7 +89,6 @@ button {
 span.logo {
     color: #2E2F42;
 }
-
 
 .nav-link {
     display: inline-block;
@@ -129,9 +119,7 @@ span.logo {
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.32px;
-
 }
-
 
 .address-link:hover {
     color: #404bbf;
@@ -148,29 +136,26 @@ span.logo {
     font-size: 14px;
 }
 
-
 a {
     text-decoration: none;
 }
 
 /*First section*/
 
-.main-inner {
-
+.hero {
+    background-color: #2E2F42;
+    padding-top: 188px;
     padding-bottom: 188px;
+}
+
+.main-inner {
     margin-right: auto;
     margin-left: auto;
 
-    background: var(--NAVY-BLUE, #2E2F42);
 }
-
-
-
 
 .main-section {
     text-align: center;
-    padding-top: 188px;
-    padding-bottom: 32px;
     margin-right: auto;
     margin-left: auto;
     max-width: 496px;
@@ -181,22 +166,15 @@ a {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    background-color: #2e2f42;
+
     /* TODO: replace with img*/
-}
-
-.main-actions {}
-
-
-.main-title {
-    color: #FFFFFF;
 }
 
 .main-button {
     display: block;
-    margin: 0 auto;
+    margin: 48px auto auto;
     padding: 16px 32px;
-    align-items: flex-start;
+
 
     color: #FFF;
     font-family: Roboto, sans-serif;
@@ -321,12 +299,7 @@ a {
 }
 
 /*Fourth section (Portfolio)*/
-.header-portfolio {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 72px;
-    background: #FFF;
-}
+
 
 .portfolio {
 
@@ -334,7 +307,8 @@ a {
 
     color: #2E2F42;
     text-align: center;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto,
+        sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -344,27 +318,40 @@ a {
 }
 
 .portfolio-inner {
-    display: inline-block;
-    margin: 24px;
-    text-decoration: none;
-    margin-left: 156px;
+    width: 1440px;
+
+}
+
+.header-portfolio {
+
+    margin-bottom: 72px;
+    background: #FFF;
 }
 
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 24px;
+
     margin-bottom: 120px;
-    border: 1px solid var(--c-border-);
+
     background: var(--c-primary-light);
     justify-content: space-around;
+    align-content: stretch;
 
 }
 
-.portfolio-li-wrapper {
-    flex-basis: calc((100%-120px)/6);
-}
+.port {
 
+    border: 1px solid var(--c-border-);
+    margin-bottom: 80px;
+    display: flex;
+    padding: 32px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+
+}
 
 .portfolio-link {
     color: #2E2F42;
@@ -383,28 +370,25 @@ a {
     letter-spacing: 0.32px;
 }
 
-.port {
 
-    border: 1px solid var(--c-border-);
-    gap: 24px;
-}
 
 
 /*Footer*/
 
 .footer-box {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+
+
+
     width: 1440px;
     height: 312px;
-    flex-shrink: 0;
+
     background: var(--c-background);
     padding: 100px 0 100px;
 }
 
 .footer-link {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto,
+        sans-serif;
     color: #F4F4FD;
     line-height: 24px;
     letter-spacing: 0.32px;
