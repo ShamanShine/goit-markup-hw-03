@@ -57,33 +57,33 @@ button {
 .header-inner {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 40px;
     border-bottom: 1px solid #e7e9fc
 }
 
 .header-nav {
     display: flex;
-    gap: 40px;
+    margin-left: 156px;
+
     align-items: center;
-    flex-grow: 1;
-}
 
-.hearder-test {
-    display: flex;
-}
 
+}
 
 .nav-list {
     display: flex;
-    gap: 24px;
-    flex-grow: 1;
-    justify-content: center;
+    gap: 40px;
+    margin-left: 76px;
+
+
+}
+
+.contact-list {
+    display: flex;
+    gap: 40px;
+
 }
 
 .logo {
-
-    margin-right: 76px align-items: center;
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -121,13 +121,14 @@ span.logo {
 .address-link {
     display: flex;
     align-items: center;
-    justify-content: center;
+
     color: #434455;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.32px;
+
 }
 
 
@@ -146,17 +147,6 @@ span.logo {
     font-size: 14px;
 }
 
-.address-test {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.tel-test {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 a {
     text-decoration: none;
