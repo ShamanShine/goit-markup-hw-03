@@ -356,7 +356,6 @@ a {
 
 .port {
 
-    border-top: none;
     border: 1px solid var(--c-border-);
     margin-bottom: 80px;
     display: flex;
@@ -365,6 +364,7 @@ a {
     justify-content: center;
     align-items: flex-start;
     gap: 8px;
+    border-top: none;
 
 }
 
