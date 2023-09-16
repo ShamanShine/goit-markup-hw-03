@@ -32,7 +32,7 @@ img {
 }
 
 .container {
-    max-width: 1158px;
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -45,26 +45,18 @@ button {
     font-family: inherit;
 }
 
-
-
-/* header,logo,Navigation */
+/* header,logo,navigation */
 .header-best {
     display: flex;
     height: 72px;
-
     border-bottom: 1px solid #e7e9fc;
-
-
 }
-
-
 
 .tools {
     display: flex;
     align-items: center;
     gap: 40px;
     justify-content: space-between;
-
 }
 
 .header-nav {
@@ -94,7 +86,6 @@ button {
 }
 
 .address-link {
-
     align-items: center;
 
     color: #434455;
@@ -315,13 +306,11 @@ a {
 
 /*Fourth section (Portfolio)*/
 
-
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
     background: #FFF;
 }
-
 
 .header-portfolio {
     margin-bottom: 72px;
@@ -382,9 +371,6 @@ a {
     line-height: 1.5em;
     letter-spacing: 0.32px;
 }
-
-
-
 
 /*Footer*/
 .footer {
