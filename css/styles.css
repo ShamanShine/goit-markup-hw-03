@@ -50,32 +50,26 @@ button {
 
 /* header,logo,Navigation */
 .header-best {
-
     height: 72px;
     align-items: center;
     border-bottom: 1px solid #e7e9fc;
+    justify-content: space-between;
+
 }
 
-.header-inner {
+
+
+.tools {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+
 }
 
 .header-nav {
     display: flex;
     align-items: center;
-}
-
-.nav-list {
-    display: flex;
-    gap: 40px;
-    margin-left: 76px;
-}
-
-.contact-list {
-    display: flex;
-    gap: 40px;
 }
 
 .logo {
@@ -90,12 +84,38 @@ button {
     line-height: 1.17;
 }
 
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.navigation-list {
+    padding: 24px 0;
+}
+
+.address-link {
+
+    align-items: center;
+
+    color: #434455;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.32px;
+}
+
+.contact-list {
+    display: flex;
+    gap: 40px;
+}
+
 span.logo {
     color: #2E2F42;
 }
 
 .nav-link {
-    display: inline-block;
+
     padding: 24px 0;
 
     color: #2E2F42;
@@ -114,17 +134,6 @@ span.logo {
     color: #404bbf;
 }
 
-.address-link {
-
-    align-items: center;
-
-    color: #434455;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: 0.32px;
-}
 
 .address-link:hover {
     color: #404bbf;
@@ -132,13 +141,6 @@ span.logo {
 
 .address-link:focus {
     color: #404bbf;
-}
-
-.body {
-    color: #434455;
-    background-color: #FFFFFF;
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
 }
 
 a {
