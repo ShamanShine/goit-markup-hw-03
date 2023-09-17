@@ -64,9 +64,9 @@ button {
     align-items: center;
 }
 
-.logo {
+.logo-header {
     margin-right: 76px;
-    color: #4D5AE5;
+    color: var(--c-brand);
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -74,6 +74,10 @@ button {
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1.17;
+}
+
+.logo-header-span {
+    color: var(--c-primary);
 }
 
 .nav-list {
@@ -224,6 +228,9 @@ a {
 
 .main-page {
     color: var(--c-dark);
+    font-family: Roboto,
+        sans-serif;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
@@ -231,6 +238,9 @@ a {
 }
 
 .main-page-title {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -253,6 +263,7 @@ a {
 
 .team {
     color: var(--c-primary);
+    font-family: Roboto, sans-serif;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -288,6 +299,8 @@ a {
 
 .team-name {
     color: var(--c-primary);
+    font-family: Roboto,
+        sans-serif;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
@@ -298,6 +311,9 @@ a {
 }
 
 .team-item {
+    font-family: Roboto,
+        sans-serif;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
@@ -329,7 +345,7 @@ a {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin-bottom: 120px;
+
     background: var(--c-primary-light);
     justify-content: space-around;
     align-content: stretch;
@@ -343,7 +359,6 @@ a {
 .port {
 
     border: 1px solid var(--c-border-);
-    margin-bottom: 80px;
     display: flex;
     padding: 32px 16px;
     flex-direction: column;
@@ -361,7 +376,6 @@ a {
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.4px;
-    margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -381,7 +395,7 @@ a {
 
 .footer-logo {
     color: var(--c-brand);
-    font-family: Roboto,
+    font-family: Raleway,
         sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -397,8 +411,11 @@ a {
 }
 
 .footer-text {
+
     color: var(--c-background-light);
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+
+
 }
