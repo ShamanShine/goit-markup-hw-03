@@ -364,7 +364,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 8px;
     border-top: none;
 
 }
@@ -376,6 +375,7 @@ a {
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
