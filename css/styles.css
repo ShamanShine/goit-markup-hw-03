@@ -142,7 +142,7 @@ a {
     text-decoration: none;
 }
 
-/*First section*/
+/*Hero section*/
 
 .hero {
     background-color: #2E2F42;
@@ -227,13 +227,14 @@ a {
 }
 
 .main-page {
-    color: var(--c-dark);
+    color: var(--c-primary);
     font-family: Roboto,
         sans-serif;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    font-weight: 500;
 
 }
 
